@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace OnboardingApp
 {
-    class user
+    public class User
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Email { get; set; }
+        public bool IsAccountOwner { get; set; }
+        public string PassCode { get; set; }
     }
 }
